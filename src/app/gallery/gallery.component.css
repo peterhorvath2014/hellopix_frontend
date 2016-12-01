@@ -1,6 +1,11 @@
-.gallery_container {
+#gallery_container {
     position:absolute;
-    top:100px;
-    left:100px;
-    background-color: #111111;
+    top:50px;
+    left:50px;
+    margin: auto;
+}
+
+#actual_image > img {
+    width:calc(100% - 500px);
+    height:calc(100% - 200px);
 }
